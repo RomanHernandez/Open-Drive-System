@@ -1,0 +1,19 @@
+# Credenciales privadas y tokens OAuth (NUNCA COMPARTIR)
+credentials.json
+tokens/
+*.db
+*.db-journal
+*.db-wal
+.secrets.json
+cloud/.secrets.json
+.env
+.env.*
+
+# Entornos y artefactos de compilación
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+cloud/node_modules/
+cloud/.cloudflare/
+.DS_Store
